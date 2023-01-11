@@ -157,8 +157,8 @@ scheduler.add_job(func=contact, trigger="interval", seconds=20)
 scheduler.start()
 app.config['MAIL_SERVER']='smtp.gmail.com'
 app.config['MAIL_PORT'] = 465
-app.config['MAIL_USERNAME'] = 'adityjoshi110@gmail.com'
-app.config['MAIL_PASSWORD'] = 'ADITYAJOSHI@light11'
+app.config['MAIL_USERNAME'] = ''
+app.config['MAIL_PASSWORD'] = ''
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
 
