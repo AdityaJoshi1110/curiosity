@@ -1,0 +1,19 @@
+.category{
+ 
+    display: flex;
+    flex-direction: column;
+    flex: 1.5;
+    margin-left: 25%;
+    margin-right: 10%;
+    margin-top: 0.5%;
+  
+    }
+
+.modal_category {
+        margin-left: 350px;
+        width: 1070px;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }

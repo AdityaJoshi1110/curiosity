@@ -1,0 +1,9 @@
+.feed {
+  display: flex;
+  flex-direction: column;
+  flex: 1.5;
+  margin-left: 25%;
+  margin-right: 10%;
+  margin-top: 0.5%;
+  overflow-wrap: break-word;
+}

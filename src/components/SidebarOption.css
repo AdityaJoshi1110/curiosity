@@ -1,0 +1,128 @@
+.sidebarOptions {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  flex-wrap: wrap;
+
+}
+.sidebarOption {
+  display: flex;
+  
+  padding: 10px;
+  flex-direction: column;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+
+.sidebarOption:hover {
+ background-color: rgb(31, 30, 30);
+  border-radius: 5px;
+}
+.sidebarOption > img {
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.sidebarOption > .MuiSvgIcon-root {
+  font-size: medium;
+  margin-left: 20px;
+}
+.sidebarOption > p {
+  margin-left: 10px;
+  color: rgb(121, 195, 226);
+  font-weight: 400;
+  font-size: 13px;
+  
+}
+
+.sidebarOption > .text {
+  margin-left: 23px;
+  color: rgb(121, 195, 226);
+  font-weight: 400;
+  font-size: 13px;
+}
+
+
+
+.navbar {
+  background-color: #060b26;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.menu-bars {
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+}
+
+.nav-menu {
+  background-color: black;
+  width: 250px;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+  border-radius: 5px;
+  margin-top: 4%;
+  margin-bottom: 20%;
+  
+}
+
+.nav-menu.active {
+  left: 0;
+  
+}
+
+.nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+  
+
+  
+}
+
+.nav-text a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.nav-text a:hover {
+  background-color: #e3dfe9;
+  color: rgb(4, 4, 80);
+}
+.nav-menu-items {
+  width: 100%;
+  padding-top: 20px;
+  ;
+}
+.navbar-toggle {
+  background-color: red ;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+span {
+  margin-left: 16px;
+}

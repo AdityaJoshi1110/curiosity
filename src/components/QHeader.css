@@ -1,0 +1,216 @@
+.QHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  background-color: white;
+  width: 100%;
+
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.5);
+}
+.QHeader__logo2 > img {
+  height: 50px;
+  margin-right: 8 px;
+  margin-left: -1100px;
+  width:150px;
+  padding-top: 5px;
+}
+.QHeader__logo1 > img {
+  height: 50px;
+  margin-left: -950px;
+  width:70px;
+}
+
+.QHeader__icons {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.QHeader__icons > .active > .MuiSvgIcon-root {
+  fill: #8f1f1b;
+}
+
+.QHeader__icon > .MuiSvgIcon-root {
+  font-size: xx-large;
+  background-color: white;
+  padding: 5px 20px;
+  color: gray;
+}
+
+.QHeader__icon > .MuiSvgIcon-root:hover {
+  background-color: rgba(233, 233, 233, 0.5);
+  border-radius: 10px;
+  color: #243b55;
+}
+
+.QHeader__input {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.QHeader__input > input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: rgb(49, 49, 49);
+  width: 200px;
+}
+.modal_category1 {
+  width:max-content;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.QHeader__input > .MuiSvgIcon-root {
+  color: gray;
+}
+
+.QHeader__avatar {
+  cursor: pointer;
+}
+.QHeader__Rem {
+  display: flex;
+  align-items: center;
+  margin-right: -1100px;
+}
+
+.QHeader__Rem > .MuiSvgIcon-root {
+  font-size: xx-large;
+  color: gray;
+  margin-left: 25px;
+  cursor: pointer;
+}
+.QHeader__Rem > .MuiSvgIcon-root:hover {
+  color: #b92b27;
+}
+
+.QHeader__Rem > .MuiButton-root {
+  color: white;
+  background: #b92b27;
+  text-transform: inherit;
+  border-radius: 20px;
+  margin-left: 25px;
+}
+
+.QHeader__Rem > .MuiButton-root:hover {
+  color: #ffffff;
+  background: #8f1f1b;
+}
+
+.modal__title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  border-bottom: 1px solid rgba(187, 187, 187, 0.5);
+}
+
+.modal__title > h5 {
+  color: gray;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-right: 30px;
+}
+
+.modal__title > h5:hover {
+  color: #b92b27;
+}
+
+.modal__info {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.modal__info > p {
+  margin-left: 10px;
+  font-size: small;
+  color: gray;
+}
+
+.modal_info > .modal_scope {
+  display: flex;
+  align-items: center;
+  color: rgb(98, 98, 98);
+  padding: 5px;
+  margin-left: 10px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 33px;
+  cursor: pointer;
+}
+
+.modal__Field {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  flex: 1;
+}
+
+.modal_Field > .modal_fieldLink {
+  color: gray;
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.modal_Field > .modal_fieldLink > input {
+  flex: 1;
+  border: none;
+  outline: none;
+  margin-left: 5px;
+}
+
+.modal__buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 260px;
+  margin-right: -20px;
+  border-top: 1px solid lightgray;
+}
+
+.modal__buttons > .cancle {
+  margin-left: auto;
+  border: none;
+  margin-top: 5px;
+  outline: none;
+  color: gray;
+  font-weight: 500;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 33px;
+  cursor: pointer;
+}
+.modal__buttons > .add {
+  border: none;
+  outline: none;
+  margin-top: 5px;
+  background-color: rgb(0, 64, 255);
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 33px;
+  cursor: pointer;
+}
+.heading {
+  font-size: 45px;
+  margin-left: 40px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  color: #243b55;
+}
+
+.notification{
+  margin-right: 1000px;
+  margin-left: 1000px;
+}

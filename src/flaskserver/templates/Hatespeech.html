@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hate Speech Analyis</title>
+    <style>
+        .tab {
+            margin-left: 0%;
+        }
+        body {
+		    text-align: justify;
+            color: #FFFFFF;
+            background: url('https://images.unsplash.com/photo-1550684376-efcbd6e3f031?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80') no-repeat;
+            background-size: cover;
+            font-family: monospace;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<div class="tab" style=line-height:250%>
+     
+<h1><center>Hate speech</center></h1>
+<h2>Questions with Hate Speech</h2>    
+<ul>
+    {% for ques in question %}
+    <li>{{ques}}</li>
+    {% endfor %}
+</ul>
+<h2>Answers with Hate Speech</h2> 
+<ul>
+    {% for ans in answer %}
+    <li>{{ans}}</li>
+    {% endfor %}
+</ul> 
+</div>
+</body>
+</html>

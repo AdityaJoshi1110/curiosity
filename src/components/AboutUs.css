@@ -1,0 +1,75 @@
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 240px;
+ 
+}
+
+.html {
+  box-sizing: border-box;
+  
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.h1{
+  text-align: center;
+  color:crimson;
+}
+ 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  width: 350px;
+  margin-left: 150px;
+}
+
+.about-section {
+  padding: 40px;
+  text-align: center;
+  background-color: rgb(19, 18, 18);
+  color: white;
+  margin-left: 50px;
+  margin-top: 1%;
+  margin-right: 1%;
+  border-radius: 2%;
+  margin-bottom: 0.5%;
+}
+
+.container {
+  padding: 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.row> .column{
+   width: 30%;
+ }
+.team{
+ text-align: center;
+}

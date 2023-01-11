@@ -1,0 +1,35 @@
+.CuriosityBox {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.CuriosityBox:hover {
+  border: 1px solid rgb(175, 175, 175);
+}
+
+.CuriosityBox__info {
+  display: flex;
+  align-items: center;
+}
+
+.CuriosityBox__info > h5 {
+  color: rgb(129, 129, 129);
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+.CuriosityBox__Curiosity {
+  display: flex;
+  margin-top: 8px;
+}
+
+.CuriosityBox__Curiosity > p {
+  color: gray;
+  font-weight: bold;
+  font-size: large;
+}

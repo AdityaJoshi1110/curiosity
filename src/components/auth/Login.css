@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background:url(https://image.freepik.com/free-vector/question-3d-effect-background_52683-30326.jpg);
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.project-name{
+  font-size:xx-large;
+  
+  font-style:normal;
+  color:brown;
+  margin-top: 10px;
+}
+.login__container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 700px;
+  background: 
+    linear-gradient(#182744, #243b55);
+
+  border-radius: 10px;
+}
+
+.login__logo {
+  display: flex;
+  justify-content: center;
+}
+
+.login__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.login__desc > h3 {
+  margin-top: 10px;
+  text-align: center;
+  font-size: xx-large;
+  font-family: "Cedarville Cursive", cursive;
+}
+.login__desc > p {
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.login__auth {
+  display: flex;
+  margin-top: 50px;
+  
+}
+
+.login__authOptions {
+  display: flex;
+  flex: 0.5;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 30px;
+  border-right: 1px solid white;
+}
+
+.login__authOption {
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  margin-bottom: 15px;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.login__authOption:hover {
+  background-color: whitesmoke;
+}
+
+
+.login__authOption > img {
+  height: 30px;
+  object-fit: contain;
+}
+
+.login__authOption > p {
+  margin-left: 11px;
+}
+
+.login__authDesc {
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  margin-bottom: 15px;
+}
+.login__authDesc > p {
+  font-size: small;
+  color:lightgrey;
+}
+
+.login__emailPass {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  flex: 0.5;
+  margin-left: 5px;
+}
+
+.login__label > h4 {
+  padding: 5px;
+  
+}
+
+.login__inputFields {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  padding-left: 1px;
+  padding-right: 20px;
+}
+
+.login__inputField {
+  padding: 5px;
+  
+}
+
+.login__inputField > input {
+  padding: 10px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  background-color:white
+}
+.login__inputField :hover{
+  background-color: whitesmoke;
+}
+.login__forgButt {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.login__forgButt > small {
+  color: aliceblue;
+  cursor: pointer ;
+}
+
+.login__forgButt > small:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.login__forgButt > button {
+  padding: 9px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: orangered;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  
+}
+
+.login__emailPass > button {
+  padding: 9px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: orangered;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login__lang {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.login__lang > p {
+  color: white;
+  margin-right: 5px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.login__lang > p:hover {
+  color: white;
+  margin-right: 5px;
+  text-decoration: underline;
+}
+
+.login__lang > .MuiSvgIcon-root {
+  color: white;
+}
+
+.login__footer {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.login__footer > p {
+  color: white;
+  font-size: small;
+  cursor: pointer;
+}
+
+.login__footer > p:hover {
+  text-decoration: underline;
+}
+
+.Login{
+  
+  font-family: 'Nunito', sans-serif;
+  color: rgb(29, 230, 29);
+  letter-spacing: 7px;
+  margin-left: 2%;
+}
+article {
+  background: linear-gradient(
+    to right, 
+    hsl(98 100% 62%), 
+    hsl(204 100% 59%)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+   text-align: center;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 1000px;
+  line-height: 1.1;
+  font: bolder;
+  margin-left: 10px;
+  margin-right: 30px;
+  text-align: left;
+}
+
+h1 {
+  margin: 0;
+}
+
+
+html {
+  block-size: 100%;
+  inline-size: 100%;
+}
+.P{
+  font-size: 12px;
+}
+
+.modal__buttons_Login{
+  display: flex;
+  align-items: center;
+  margin-top: 260px;
+  margin-right: -20px;
+  border-top: 1px solid lightgray;
+}  
+.modal__buttons_Login > .cancle_Login {
+  margin-left: auto;
+  border: none;
+  margin-top: 5px;
+  outline: none;
+  color: gray;
+  font-weight: 500;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 33px;
+  cursor: pointer;
+}
+.modal__buttons_Login > .register_Login {
+  border: none;
+  outline: none;
+  margin-top: 5px;
+  background-color: rgb(0, 64, 255);
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 33px;
+  cursor: pointer;
+}
+.tab
+{
+  margin-left:55px;
+}
+.tab2
+{
+  margin-left:59px;
+}
+.tab3
+{
+  margin-left:31px;
+}
